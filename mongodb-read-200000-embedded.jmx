@@ -50,7 +50,7 @@
               </elementProp>
             </collectionProp>
           </elementProp>
-          <stringProp name="HTTPSampler.domain">localhost</stringProp>
+          <stringProp name="HTTPSampler.domain">10.128.0.29</stringProp>
           <stringProp name="HTTPSampler.protocol">http</stringProp>
           <stringProp name="HTTPSampler.path">/usemongo/useembed/sensor/1/55186</stringProp>
           <stringProp name="HTTPSampler.method">GET</stringProp>
