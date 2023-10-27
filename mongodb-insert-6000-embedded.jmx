@@ -13,7 +13,7 @@
       <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Thread Group" enabled="true">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
-          <stringProp name="LoopController.loops">750000</stringProp>
+          <stringProp name="LoopController.loops">6000</stringProp>
           <boolProp name="LoopController.continue_forever">false</boolProp>
         </elementProp>
         <stringProp name="ThreadGroup.num_threads">1</stringProp>
@@ -53,7 +53,7 @@
           <stringProp name="HTTPSampler.domain">10.128.0.29</stringProp>
 <stringProp name="HTTPSampler.port">3000</stringProp>
           <stringProp name="HTTPSampler.protocol">http</stringProp>
-          <stringProp name="HTTPSampler.path">/usearango/useembed/sensor/1/55186</stringProp>
+          <stringProp name="HTTPSampler.path">/usemongo/useembed/sensor/1/55186</stringProp>
           <stringProp name="HTTPSampler.method">POST</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
