@@ -1,0 +1,5 @@
+jmeter.sh -n -t testfile-webofthing3db/arango-insert-2000-reference.jmx -l test-result/arangodb/insert/reference/2000.csv -e -o test-result/arangodb/insert/reference/2000
+jmeter.sh -n -t testfile-webofthing3db/arango-insert-4000-reference.jmx -l test-result/arangodb/insert/reference/4000.csv -e -o test-result/arangodb/insert/reference/4000
+jmeter.sh -n -t testfile-webofthing3db/arango-insert-6000-reference.jmx -l test-result/arangodb/insert/reference/6000.csv -e -o test-result/arangodb/insert/reference/6000
+jmeter.sh -n -t testfile-webofthing3db/arango-insert-8000-reference.jmx -l test-result/arangodb/insert/reference/8000.csv -e -o test-result/arangodb/insert/reference/8000
+jmeter.sh -n -t testfile-webofthing3db/arango-insert-10000-reference.jmx -l test-result/arangodb/insert/reference/10000.csv -e -o test-result/arangodb/insert/reference/10000
