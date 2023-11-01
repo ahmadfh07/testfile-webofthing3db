@@ -1,5 +1,17 @@
-jmeter.sh -n -t testfile-webofthing3db/arango-insert-2000-reference.jmx -l test-result/arangodb/insert/reference/2000.csv -e -o test-result/arangodb/insert/reference/2000
-jmeter.sh -n -t testfile-webofthing3db/arango-insert-4000-reference.jmx -l test-result/arangodb/insert/reference/4000.csv -e -o test-result/arangodb/insert/reference/4000
-jmeter.sh -n -t testfile-webofthing3db/arango-insert-6000-reference.jmx -l test-result/arangodb/insert/reference/6000.csv -e -o test-result/arangodb/insert/reference/6000
-jmeter.sh -n -t testfile-webofthing3db/arango-insert-8000-reference.jmx -l test-result/arangodb/insert/reference/8000.csv -e -o test-result/arangodb/insert/reference/8000
-jmeter.sh -n -t testfile-webofthing3db/arango-insert-10000-reference.jmx -l test-result/arangodb/insert/reference/10000.csv -e -o test-result/arangodb/insert/reference/10000
+jmeter.sh -n -t testfile-webofthing3db/arango-insert-2000-reference.jmx -l test-result/arangodb/read/reference/2000.csv -e -o test-result/arangodb/read/reference/2000
+jmeter.sh -n -t testfile-webofthing3db/arango-read-4000-reference.jmx -l test-result/arangodb/read/reference/4000.csv -e -o test-result/arangodb/read/reference/4000
+jmeter.sh -n -t testfile-webofthing3db/arango-read-4000-reference.jmx -l test-result/arangodb/read/reference/6000.csv -e -o test-result/arangodb/read/reference/6000
+jmeter.sh -n -t testfile-webofthing3db/arango-read-8000-reference.jmx -l test-result/arangodb/read/reference/8000.csv -e -o test-result/arangodb/read/reference/8000
+jmeter.sh -n -t testfile-webofthing3db/arango-read-10000-reference.jmx -l test-result/arangodb/read/reference/10000.csv -e -o test-result/arangodb/read/reference/10000
+jmeter.sh -n -t testfile-webofthing3db/mongodb-read-2000-reference.jmx -l test-result/mongodb/read/reference/2000.csv -e -o test-result/mongodb/read/reference/2000
+jmeter.sh -n -t testfile-webofthing3db/mongodb-read-4000-reference.jmx -l test-result/mongodb/read/reference/4000.csv -e -o test-result/mongodb/read/reference/4000
+jmeter.sh -n -t testfile-webofthing3db/mongodb-read-6000-reference.jmx -l test-result/mongodb/read/reference/6000.csv -e -o test-result/mongodb/read/reference/6000
+jmeter.sh -n -t testfile-webofthing3db/mongodb-read-8000-reference.jmx -l test-result/mongodb/read/reference/8000.csv -e -o test-result/mongodb/read/reference/8000
+jmeter.sh -n -t testfile-webofthing3db/mongodb-read-10000-reference.jmx -l test-result/mongodb/read/reference/10000.csv -e -o test-result/mongodb/read/reference/10000
+jmeter.sh -n -t testfile-webofthing3db/couch-read-2000-reference.jmx -l test-result/couchbase/read/reference/2000.csv -e -o test-result/couchbase/read/reference/2000
+jmeter.sh -n -t testfile-webofthing3db/couch-read-4000-reference.jmx -l test-result/couchbase/read/reference/4000.csv -e -o test-result/couchbase/read/reference/4000
+jmeter.sh -n -t testfile-webofthing3db/couch-read-6000-reference.jmx -l test-result/couchbase/read/reference/6000.csv -e -o test-result/couchbase/read/reference/6000
+jmeter.sh -n -t testfile-webofthing3db/couch-read-8000-reference.jmx -l test-result/couchbase/read/reference/8000.csv -e -o test-result/couchbase/read/reference/8000
+jmeter.sh -n -t testfile-webofthing3db/couch-read-10000-reference.jmx -l test-result/couchbase/read/reference/10000.csv -e -o test-result/couchbase/read/reference/10000
+
+jmeter.sh -n -t testfile-webofthing3db/mongodb-insert-4000-reference.jmx -l test-result/mongodb/insert/reference/4000.csv -e -o test-result/mongodb/insert/reference/4000
